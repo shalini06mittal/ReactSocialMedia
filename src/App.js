@@ -1,5 +1,5 @@
 import './App.css';
-import {Link, Redirect, Route, Switch} from 'react-router-dom';
+import {Route, Switch} from 'react-router-dom';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
 import Forgot from './components/Forgot';

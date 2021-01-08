@@ -18,7 +18,7 @@ export default class Login extends Component {
         var isLoginFailed = true;
         for(var user of users)
         {
-            if(user.email == this.state.email && user.password == this.state.password)
+            if(user.email === this.state.email && user.password === this.state.password)
                 {
                   console.log('s')
                   isLoginFailed = false;

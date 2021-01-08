@@ -20,7 +20,7 @@ export default class SignUp extends Component {
     event.preventDefault();
     var pwd = this.state.password;
     var cpwd = this.state.cpassword;
-    if(pwd=='' || pwd !== cpwd)
+    if(pwd==='' || pwd !== cpwd)
     {
        this.setState( {error:'Password do not match'})
     }
